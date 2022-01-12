@@ -1,0 +1,54 @@
+.our-company{
+	padding: 60px 0 40px;
+	.our-company-text{
+		padding: 5%;
+		@media only screen and (max-width: $bp-medium) {
+			padding: 0 1% 30px 1%;
+		}
+		
+	}
+	.full-img{
+		margin-top: 20px;
+	}
+}
+
+.our-mission{
+	.our-mission-text {
+		padding: 2% 5% 2% 3%;
+		@media only screen and (max-width: $bp-medium) {
+			padding: 0% 2% 30px 2%;
+		}
+	}
+}
+.our-team{
+	.our-team-text{
+		padding: 5%;
+	}
+	
+}
+.social-responsibility{
+	padding: 80px 0;
+	.social-responsibility-text{
+		padding: 3% 5%;
+		@media only screen and (max-width: $bp-small) {
+			padding: 3% 5% 30px 5%;
+		}
+		h3{
+			font-family: $font-primary;
+			line-height: 1.4em;
+		}
+		h4{
+			font-family: $font-primary;
+			text-transform: uppercase;
+			font-weight: 400;
+			margin-bottom: 20px;
+		}
+		p{
+			a{
+				text-decoration: none;
+				font-weight: bold;
+				color: $color-primary;
+			}
+		}
+	}
+}
