@@ -1,0 +1,46 @@
+.container {
+    width: 90%;
+    max-width: 150rem;
+    background-color: var(--color-grey-light-1);
+    margin: 0 auto;
+    @media only screen and (max-width: $bp-largest) {
+        margin: 0 auto;
+        max-width: 100%;
+        width: 100%;
+    }
+    @media only screen and (max-width: $bp-medium) {
+        margin: 0 auto;
+        width: 95%;
+    }
+    @media only screen and (max-width: $bp-small) {
+        width: 90%;
+    }
+}
+
+.content {
+    display: flex;
+
+    @media only screen and (max-width: $bp-medium) {
+        flex-direction: column;
+    }
+}
+.bg-color-white{
+    background-color: $color-primary-light;
+}
+.bg-color-grey{
+    background-color: $color-grey-light-1;
+}
+.bg-color-grey-light{
+    background-color: $color-grey-light-3;
+}
+.bg-color-grey-dark{
+    background-color: $color-grey-dark;
+}
+.bg-color-grey-green{
+background-color: $color-grey-light-2;
+}
+
+
+
+
+
