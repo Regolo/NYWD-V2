@@ -1280,15 +1280,17 @@ svg.icon.icon--cross {
         height: 300px; } }
   .mosaic .item-mosaic {
     position: absolute;
-    width: 50vw;
-    height: 50vw;
+    width: 20vw;
+    height: 20vw;
     display: flex;
     justify-content: center;
     align-items: center; }
     @media only screen and (max-width: 37.5em) {
       .mosaic .item-mosaic {
         position: relative;
-        float: left; } }
+        float: left;
+        width: 50vw;
+        height: 50vw; } }
     .mosaic .item-mosaic span {
       text-align: center; }
     .mosaic .item-mosaic em {
@@ -1477,7 +1479,8 @@ svg.icon.icon--cross {
     .accordion-item.accordion-active {
       display: flex; }
       .accordion-item.accordion-active .accordion-item__container {
-        padding: 0; }
+        padding: 0;
+        display: flex; }
     .accordion-item .accordion-content-text {
       width: 50%;
       padding: 50px 6% 0 0; }
