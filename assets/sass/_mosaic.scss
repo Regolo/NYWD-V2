@@ -43,14 +43,16 @@
 	}
 	.item-mosaic{
 		position: absolute;
-		width: 50vw;
-		height: 50vw;
+		width: 20vw;
+		height: 20vw;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		@media only screen and (max-width: $bp-small) {
 			position: relative;
 			float: left;
+			width: 50vw;
+			height: 50vw;
 		}
 		span{
 			text-align: center;
