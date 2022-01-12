@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="140" viewBox="0 0 140 140">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_116" data-name="Rettangolo 116" width="79.915" height="79.924" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_160" data-name="Raggruppa 160" transform="translate(-703 -2069)">
+    <circle id="Ellisse_2" data-name="Ellisse 2" cx="70" cy="70" r="70" transform="translate(703 2069)" fill="#69717b"/>
+    <g id="Raggruppa_136" data-name="Raggruppa 136" transform="translate(729.914 2097.711)">
+      <g id="Raggruppa_135" data-name="Raggruppa 135" transform="translate(6 6.258)" clip-path="url(#clip-path)">
+        <path id="Tracciato_2140" data-name="Tracciato 2140" d="M79.184,114.186h47.353l-4.845,4.845a1,1,0,0,0,1.413,1.413l6.551-6.551a1,1,0,0,0,0-1.413l-6.551-6.551a1,1,0,1,0-1.413,1.413l4.845,4.845H79.184a1,1,0,1,0,0,2Z" transform="translate(-64.237 -86.79)" fill="#fff"/>
+        <path id="Tracciato_2141" data-name="Tracciato 2141" d="M85.03,220.606a1,1,0,1,0,1.413-1.413L81.6,214.348h47.353a1,1,0,0,0,0-2H81.6l4.845-4.846a1,1,0,0,0-1.413-1.413l-6.551,6.552a1,1,0,0,0,0,1.413Z" transform="translate(-64.238 -169.084)" fill="#fff"/>
+        <path id="Tracciato_2142" data-name="Tracciato 2142" d="M79.915,65.812V1a1,1,0,0,0-1-1H1A1,1,0,0,0,0,1V65.812a1,1,0,0,0,1,1h11.02L24.73,79.629a1,1,0,0,0,1.419,0l12.71-12.818H78.915a1,1,0,0,0,1-1Zm-2-1H38.442a1,1,0,0,0-.709.3l-12.294,12.4-12.294-12.4a1,1,0,0,0-.709-.3H2V2H77.916Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
