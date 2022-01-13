@@ -82,6 +82,9 @@
 				margin: 1%;
 				font-family: $font-primary;
 				color: $color-primary;
+				&.years-join{
+					width: 97%;
+				}
 			}
 			textarea{
 				display: inline-block;
@@ -95,6 +98,18 @@
 				top: 5px;
 				font-family: $font-primary;
 				color: $color-primary;
+				&.vendor-textarea{
+					height: 174px;
+					@media only screen and (max-width: $bp-medium) {
+						height: 161px;
+					}
+				}
+				&.join-textarea{
+					height: 227px;
+					@media only screen and (max-width: $bp-medium) {
+						height: 217px;
+					}
+				}
 				@media only screen and (max-width: $bp-medium) {
 					height: 274px;
 				}
