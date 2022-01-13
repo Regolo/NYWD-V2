@@ -1439,7 +1439,7 @@ svg.icon.icon--cross {
     .accordion-active .accordion-item__label:after {
       opacity: 1; }
   .accordion-active .accordion-item__container {
-    padding: 1.25em;
+    padding: 1.25em 0;
     height: auto;
     opacity: 1; }
     .accordion-active .accordion-item__container p:first-child, .accordion-active .accordion-item__container h1:first-child, .accordion-active .accordion-item__container h2:first-child, .accordion-active .accordion-item__container h3:first-child, .accordion-active .accordion-item__container h4:first-child, .accordion-active .accordion-item__container h5:first-child, .accordion-active .accordion-item__container h6:first-child {
@@ -1718,6 +1718,9 @@ svg.icon.icon--cross {
     margin: 0 auto 80px; }
   .our-process .item-process {
     padding: 10px; }
+    @media only screen and (max-width: 37.5em) {
+      .our-process .item-process {
+        padding: 20px 10px; } }
     .our-process .item-process h3 {
       text-transform: uppercase;
       font-size: 1.6rem;
@@ -1730,6 +1733,9 @@ svg.icon.icon--cross {
   padding: 70px 0; }
   .accordion-form .accordion {
     margin: 0px auto 0; }
+    @media only screen and (max-width: 37.5em) {
+      .accordion-form .accordion {
+        width: 100%; } }
     .accordion-form .accordion .form-become input {
       display: inline-block;
       width: 47%;
@@ -1744,8 +1750,13 @@ svg.icon.icon--cross {
         width: 99%;
         margin: 2% auto;
         display: block;
+        position: relative;
         background-color: #353C44;
         color: #FFFFFF; }
+        @media only screen and (max-width: 37.5em) {
+          .accordion-form .accordion .form-become input[type="submit"] {
+            width: 97%;
+            left: -2px; } }
     .accordion-form .accordion .form-become select {
       display: inline-block;
       width: 47%;
@@ -1768,6 +1779,14 @@ svg.icon.icon--cross {
       top: 5px;
       font-family: "Roboto", sans-serif;
       color: #353C44; }
+      @media only screen and (max-width: 56.25em) {
+        .accordion-form .accordion .form-become textarea {
+          height: 274px; } }
+      @media only screen and (max-width: 37.5em) {
+        .accordion-form .accordion .form-become textarea {
+          width: 97%;
+          height: 294px;
+          left: 3px; } }
 
 .footer {
   text-align: center;
