@@ -1788,6 +1788,8 @@ svg.icon.icon--cross {
       margin: 1%;
       font-family: "Roboto", sans-serif;
       color: #353C44; }
+      .accordion-form .accordion .form-become select.years-join {
+        width: 97%; }
     .accordion-form .accordion .form-become textarea {
       display: inline-block;
       width: 100%;
@@ -1800,6 +1802,16 @@ svg.icon.icon--cross {
       top: 5px;
       font-family: "Roboto", sans-serif;
       color: #353C44; }
+      .accordion-form .accordion .form-become textarea.vendor-textarea {
+        height: 174px; }
+        @media only screen and (max-width: 56.25em) {
+          .accordion-form .accordion .form-become textarea.vendor-textarea {
+            height: 161px; } }
+      .accordion-form .accordion .form-become textarea.join-textarea {
+        height: 227px; }
+        @media only screen and (max-width: 56.25em) {
+          .accordion-form .accordion .form-become textarea.join-textarea {
+            height: 217px; } }
       @media only screen and (max-width: 56.25em) {
         .accordion-form .accordion .form-become textarea {
           height: 274px; } }
