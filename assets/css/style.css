@@ -53,7 +53,7 @@ figure img {
     color: #353C44; }
 
 .heading-3 {
-  font-size: 3.6rem;
+  font-size: 4.8rem;
   margin-bottom: 2.5rem; }
   .heading-3--light {
     color: #FFFFFF; }
@@ -66,6 +66,9 @@ figure img {
     color: #FFFFFF; }
   .heading-4--dark {
     color: #353C44; }
+
+p {
+  font-size: 1.6rem; }
 
 .mb-sm {
   margin-bottom: 2rem; }
@@ -760,7 +763,8 @@ figure img {
   display: flex;
   justify-content: center;
   height: 50px;
-  align-items: center; }
+  align-items: center;
+  background-color: #D3D0CA; }
   .announcement-bar p {
     font-size: 1.4rem; }
     .announcement-bar p a {
@@ -797,7 +801,9 @@ header {
       header .logo {
         width: 40%; } }
     header .logo img {
-      height: 30px; }
+      height: 30px;
+      position: relative;
+      top: 4px; }
       @media only screen and (max-width: 37.5em) {
         header .logo img {
           height: 25px; } }
@@ -828,10 +834,10 @@ header {
     display: flex;
     list-style-type: none; }
     header .menu-desktop li {
-      margin: 0 10px; }
+      margin: 0 20px; }
       header .menu-desktop li a {
         text-transform: uppercase;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         color: #FFFFFF;
         opacity: 0.6;
         text-decoration: none;
@@ -1189,12 +1195,12 @@ svg.icon.icon--cross {
     text-align: center; }
     .banner .main-banner h1.heading-1 {
       color: #FFFFFF;
-      font-size: 7rem;
-      line-height: 1.4em; }
+      font-size: 7.5rem;
+      line-height: 1.2em; }
       @media only screen and (max-width: 56.25em) {
         .banner .main-banner h1.heading-1 {
           font-size: 6rem;
-          line-height: 1.4em; } }
+          line-height: 1.2em; } }
       @media only screen and (max-width: 37.5em) {
         .banner .main-banner h1.heading-1 {
           font-size: 5rem;
@@ -1233,14 +1239,15 @@ svg.icon.icon--cross {
   text-align: center;
   padding: 80px 0; }
   .intro h3 {
-    font-size: 3.6rem;
+    font-size: 3.8rem;
     margin-bottom: 20px; }
     @media only screen and (max-width: 56.25em) {
       .intro h3 {
         font-size: 3rem; } }
   .intro p {
     max-width: 65%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    font-size: 1.8rem; }
     @media only screen and (max-width: 37.5em) {
       .intro p {
         max-width: 90%; } }
@@ -1270,9 +1277,9 @@ svg.icon.icon--cross {
     color: #FFFFFF;
     font-size: 3.6rem;
     font-weight: 400;
-    width: 60%;
+    width: 50%;
     line-height: 1.3em;
-    left: 5vw;
+    left: 7vw;
     top: 23vw; }
     @media only screen and (max-width: 56.25em) {
       .mosaic h3 {
@@ -1359,7 +1366,7 @@ svg.icon.icon--cross {
   .mosaic p {
     position: relative;
     color: #FFFFFF;
-    left: 5vw;
+    left: 7vw;
     top: 25vw;
     width: 45vw; }
     @media only screen and (max-width: 56.25em) {
@@ -1382,12 +1389,13 @@ svg.icon.icon--cross {
   padding: 80px 0; }
   .expertise h3 {
     text-align: center;
-    font-size: 4.2rem;
+    font-size: 4.8rem;
     margin-bottom: 20px; }
   .expertise p.intro-section {
     text-align: center;
-    max-width: 650px;
-    margin: 0 auto; }
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.8rem; }
 
 .accordion {
   margin: 60px 0;
@@ -1461,8 +1469,9 @@ svg.icon.icon--cross {
       flex: 1;
       border: none;
       cursor: pointer;
-      font-size: 1.6rem;
+      font-size: 2rem;
       text-transform: uppercase;
+      border-bottom: 1px solid #ccc;
       transition: background .1s ease; }
       .accordion-tabs .accordion-tab:hover {
         background: rgba(249, 249, 249, 0.01); }
@@ -1490,11 +1499,13 @@ svg.icon.icon--cross {
         display: flex; }
     .accordion-item .accordion-content-text {
       width: 50%;
-      padding: 50px 6% 0 0; }
+      padding: 40px 6% 0 0; }
       .accordion-item .accordion-content-text h4 {
         font-size: 3rem;
-        margin-bottom: 20px;
-        line-height: 1.4em; }
+        margin-bottom: 45px;
+        line-height: 1.3em; }
+      .accordion-item .accordion-content-text p {
+        font-size: 1.6rem; }
     .accordion-item figure.figure-accordion {
       width: 50%; }
       .accordion-item figure.figure-accordion img {
@@ -1618,7 +1629,9 @@ svg.icon.icon--cross {
         padding: 3% 5% 30px 5%; } }
     .social-responsibility .social-responsibility-text h3 {
       font-family: "Roboto", sans-serif;
-      line-height: 1.4em; }
+      line-height: 1.4em;
+      font-size: 3rem;
+      margin-bottom: 45px; }
     .social-responsibility .social-responsibility-text h4 {
       font-family: "Roboto", sans-serif;
       text-transform: uppercase;
@@ -1693,11 +1706,12 @@ svg.icon.icon--cross {
       bottom: 0px;
       left: 30px;
       color: #fff;
-      font-family: "Roboto", sans-serif; }
+      font-family: "Roboto", sans-serif;
+      font-size: 3.6rem; }
   .our-team .main-team .item-team p {
     text-align: left;
     padding: 5%;
-    font-size: 1.8rem; }
+    font-size: 1.6rem; }
     @media only screen and (max-width: 56.25em) {
       .our-team .main-team .item-team p {
         padding: 5% 5px;
@@ -1715,7 +1729,7 @@ svg.icon.icon--cross {
   text-align: center;
   padding-bottom: 60px; }
   .our-process .heading-3 {
-    font-size: 4.2rem; }
+    font-size: 4.8rem; }
   .our-process .our-process-text-intro {
     max-width: 471px;
     margin: 0 auto 80px; }
@@ -1749,13 +1763,17 @@ svg.icon.icon--cross {
       margin: 1%;
       font-family: "Roboto", sans-serif;
       color: #353C44; }
+      .accordion-form .accordion .form-become input:active {
+        border: none;
+        outline: none; }
       .accordion-form .accordion .form-become input[type="submit"] {
         width: 99%;
         margin: 2% auto;
         display: block;
         position: relative;
         background-color: #353C44;
-        color: #FFFFFF; }
+        color: #FFFFFF;
+        font-size: 1.6rem; }
         @media only screen and (max-width: 37.5em) {
           .accordion-form .accordion .form-become input[type="submit"] {
             width: 97%;
@@ -1795,7 +1813,7 @@ svg.icon.icon--cross {
   text-align: center;
   padding: 60px 0 40px; }
   .career .career-text h3 {
-    font-size: 4.2rem; }
+    font-size: 4.8rem; }
   .career .career-text .career-text-intro {
     max-width: 471px;
     margin: 0 auto 80px; }
@@ -1907,13 +1925,13 @@ svg.icon.icon--cross {
     font-family: "EB Garamond", serif;
     font-size: 1.4rem;
     font-style: normal;
-    margin-bottom: 25px; }
+    margin-bottom: 35px; }
   .footer p.copy {
     font-size: 1.2rem; }
   .footer .change-language {
     position: relative;
     max-width: 400px;
-    margin: 0 auto 25px; }
+    margin: 0 auto 40px; }
     @media only screen and (max-width: 37.5em) {
       .footer .change-language {
         margin: 0 auto 38px; } }
