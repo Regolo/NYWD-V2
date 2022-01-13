@@ -1189,7 +1189,8 @@ svg.icon.icon--cross {
     text-align: center; }
     .banner .main-banner h1.heading-1 {
       color: #FFFFFF;
-      font-size: 8rem; }
+      font-size: 7rem;
+      line-height: 1.4em; }
       @media only screen and (max-width: 56.25em) {
         .banner .main-banner h1.heading-1 {
           font-size: 6rem;
@@ -1219,6 +1220,9 @@ svg.icon.icon--cross {
 
 .banner-about {
   background-image: url("../img/banner-about.jpg"); }
+
+.banner-become {
+  background-image: url("../img/banner-become.jpg"); }
 
 .intro {
   display: flex;
@@ -1695,6 +1699,75 @@ svg.icon.icon--cross {
       .our-team .main-team .item-team p {
         padding: 5% 5px;
         font-size: 1.6rem; } }
+
+.become-a-partner {
+  padding: 60px 0 40px; }
+  .become-a-partner .become-a-partner-text {
+    padding: 4%; }
+    @media only screen and (max-width: 56.25em) {
+      .become-a-partner .become-a-partner-text {
+        padding: 0 1% 30px 1%; } }
+
+.our-process {
+  text-align: center;
+  padding-bottom: 60px; }
+  .our-process .heading-3 {
+    font-size: 4.2rem; }
+  .our-process .our-process-text-intro {
+    max-width: 471px;
+    margin: 0 auto 80px; }
+  .our-process .item-process {
+    padding: 10px; }
+    .our-process .item-process h3 {
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      margin: 15px 0; }
+    .our-process .item-process p {
+      font-size: 1.4rem; }
+
+.accordion-form {
+  position: relative;
+  padding: 70px 0; }
+  .accordion-form .accordion {
+    margin: 0px auto 0; }
+    .accordion-form .accordion .form-become input {
+      display: inline-block;
+      width: 47%;
+      height: 50px;
+      line-height: 50px;
+      border: none;
+      padding: 0 10px;
+      margin: 1%;
+      font-family: "Roboto", sans-serif;
+      color: #353C44; }
+      .accordion-form .accordion .form-become input[type="submit"] {
+        width: 99%;
+        margin: 2% auto;
+        display: block;
+        background-color: #353C44;
+        color: #FFFFFF; }
+    .accordion-form .accordion .form-become select {
+      display: inline-block;
+      width: 47%;
+      height: 50px;
+      line-height: 50px;
+      border: none;
+      padding: 0 10px;
+      margin: 1%;
+      font-family: "Roboto", sans-serif;
+      color: #353C44; }
+    .accordion-form .accordion .form-become textarea {
+      display: inline-block;
+      width: 100%;
+      resize: none;
+      height: 294px;
+      border: none;
+      padding: 10px;
+      position: relative;
+      left: -5px;
+      top: 5px;
+      font-family: "Roboto", sans-serif;
+      color: #353C44; }
 
 .footer {
   text-align: center;
