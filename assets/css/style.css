@@ -745,7 +745,7 @@ figure img {
   background-color: #FFFFFF; }
 
 .bg-color-grey {
-  background-color: #D6D1CB; }
+  background-color: #EDEBE8; }
 
 .bg-color-grey-light {
   background-color: #F3F3F3; }
@@ -1223,6 +1223,9 @@ svg.icon.icon--cross {
 
 .banner-become {
   background-image: url("../img/banner-become.jpg"); }
+
+.banner-career {
+  background-image: url("../img/career-banner.jpg"); }
 
 .intro {
   display: flex;
@@ -1787,6 +1790,81 @@ svg.icon.icon--cross {
           width: 97%;
           height: 294px;
           left: 3px; } }
+
+.career {
+  text-align: center;
+  padding: 60px 0 40px; }
+  .career .career-text h3 {
+    font-size: 4.2rem; }
+  .career .career-text .career-text-intro {
+    max-width: 471px;
+    margin: 0 auto 80px; }
+  .career .career-main input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1; }
+  .career .career-main .accordion-wrapper {
+    overflow: hidden;
+    width: 85%;
+    margin: 0 auto; }
+    @media only screen and (max-width: 37.5em) {
+      .career .career-main .accordion-wrapper {
+        width: 100%; } }
+  .career .career-main .accordion {
+    width: 100%;
+    color: #353C44;
+    overflow: hidden;
+    margin-bottom: 16px;
+    margin-top: 0; }
+  .career .career-main .accordion:last-child {
+    margin-bottom: 0; }
+  .career .career-main .accordion-label {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 30px 20px 30px 30px;
+    background: #EDEBE8;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "EB Garamond", serif;
+    font-size: 3rem;
+    color: #353C44; }
+    @media only screen and (max-width: 37.5em) {
+      .career .career-main .accordion-label {
+        padding: 25px 0px 25px 15px;
+        font-size: 2.4rem; } }
+  .career .career-main .accordion-label:hover {
+    opacity: 0.8; }
+  .career .career-main .accordion-label::after {
+    content: url("../img/arrow-drop-down-circle.svg");
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    position: relative;
+    left: -34px;
+    top: 5px; }
+  .career .career-main .accordion-content {
+    max-height: 0;
+    padding: 0 16px;
+    background: #EDEBE8;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+  .career .career-main .accordion-content p {
+    margin: 0;
+    font-size: 1.6rem;
+    color: #353C44;
+    padding: 20px 20px 40px 20px; }
+  .career .career-main input:checked + .accordion-label {
+    background: #EDEBE8; }
+  .career .career-main input:checked + .accordion-label::after {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    top: 20px; }
+  .career .career-main input:checked ~ .accordion-content {
+    max-height: 100vh;
+    padding: 16px; }
 
 .footer {
   text-align: center;
