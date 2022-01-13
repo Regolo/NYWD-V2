@@ -13,7 +13,8 @@
 		text-align: center;
 		h1.heading-1{
 			color: #FFFFFF;
-			font-size: 8rem;
+			font-size: 7rem;
+			line-height: 1.4em;
 			@media only screen and (max-width: $bp-medium) {
 				font-size: 6rem;
 				line-height: 1.4em;
@@ -48,4 +49,7 @@
 }
 .banner-about{
 	background-image: url('../img/banner-about.jpg');
+}
+.banner-become{
+	background-image: url('../img/banner-become.jpg');
 }
