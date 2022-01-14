@@ -56,6 +56,14 @@
 	}
 	p.copy {
 		font-size: 1.2rem;
+		a {
+			color: #353C44;
+			font-weight: bold;
+			text-decoration: none;
+			&:hover{
+				opacity:0.8;
+			}
+		}
 	}
 	.change-language{
 		position: relative;
