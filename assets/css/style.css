@@ -1690,7 +1690,7 @@ svg.icon.icon--cross {
     left: auto; }
     @media only screen and (max-width: 37.5em) {
       .our-team .main-team .swiper-button-next, .our-team .main-team .swiper-rtl .swiper-button-prev {
-        right: 8%; } }
+        right: 14%; } }
   .our-team .main-team .swiper-button-prev:after, .our-team .main-team .swiper-rtl .swiper-button-next:after {
     content: url("../img/arrow-left-slide-team.svg"); }
   .our-team .main-team .swiper-button-next:after, .our-team .main-team .swiper-rtl .swiper-button-prev:after {
