@@ -1686,7 +1686,7 @@ svg.icon.icon--cross {
       .our-team .main-team .swiper-button-prev, .our-team .main-team .swiper-rtl .swiper-button-next {
         left: 15%; } }
   .our-team .main-team .swiper-button-next, .our-team .main-team .swiper-rtl .swiper-button-prev {
-    right: 5%;
+    right: 8%;
     left: auto; }
     @media only screen and (max-width: 37.5em) {
       .our-team .main-team .swiper-button-next, .our-team .main-team .swiper-rtl .swiper-button-prev {
