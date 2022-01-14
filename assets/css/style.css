@@ -1610,6 +1610,13 @@ svg.icon.icon--cross {
         padding: 0 1% 30px 1%; } }
   .our-company .full-img {
     margin-top: 20px; }
+  .our-company figure.figure-bridge {
+    position: relative; }
+    .our-company figure.figure-bridge figcaption {
+      position: absolute;
+      bottom: 25px;
+      left: 20px;
+      color: #fff; }
 
 .our-mission .our-mission-text {
   padding: 2% 5% 2% 3%; }
@@ -1646,7 +1653,8 @@ svg.icon.icon--cross {
   margin-bottom: 40px; }
   .our-team .main-team .swiper {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    padding-right: 5%; }
   .our-team .main-team .swiper-wrapper {
     padding-left: 5%; }
   .our-team .main-team .swiper-slide {
