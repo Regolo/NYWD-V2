@@ -1654,7 +1654,7 @@ svg.icon.icon--cross {
   .our-team .main-team .swiper {
     width: 100%;
     height: 100%;
-    padding-right: 5%; }
+    padding-right: 9%; }
   .our-team .main-team .swiper-wrapper {
     padding-left: 5%; }
   .our-team .main-team .swiper-slide {
@@ -1948,6 +1948,12 @@ svg.icon.icon--cross {
     margin-bottom: 35px; }
   .footer p.copy {
     font-size: 1.2rem; }
+    .footer p.copy a {
+      color: #353C44;
+      font-weight: bold;
+      text-decoration: none; }
+      .footer p.copy a:hover {
+        opacity: 0.8; }
   .footer .change-language {
     position: relative;
     max-width: 400px;
