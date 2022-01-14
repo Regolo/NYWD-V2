@@ -10,6 +10,15 @@
 	.full-img{
 		margin-top: 20px;
 	}
+	figure.figure-bridge {
+		position: relative;
+		figcaption {
+			position: absolute;
+			bottom: 25px;
+			left: 20px;
+			color: #fff;
+		}
+	}
 }
 
 .our-mission{
