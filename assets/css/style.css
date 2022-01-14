@@ -762,7 +762,7 @@ p {
 .announcement-bar {
   display: flex;
   justify-content: center;
-  height: 10px;
+  height: 40px;
   align-items: center;
   background-color: #D3D0CA; }
   .announcement-bar p {
