@@ -217,7 +217,7 @@ $color_cloud: #eaeaea;
 .video-main {
 	position: relative;
 	width: 100%;
-	height: 46vw;
+	height:46vw;
 	background-color: #333F48;
 	margin: 0px;
 }
@@ -250,6 +250,10 @@ $color_cloud: #eaeaea;
 	z-index: 0;
 	top: 0;
 }
+.video-container video[poster]{
+	height:100%;
+	width:100%;
+	}
 
 .video-container video.fillWidth {
 	width: 100% !important;
@@ -259,4 +263,5 @@ $color_cloud: #eaeaea;
 	.accordion-tabs .accordion-tab{font-size: 1.4rem;}
 	.accordion-item .accordion-content-text h4{font-size: 2.4rem;}
 	.accordion-item .accordion-content-text {padding: 0px 3% 0 0;}
+	.video-main {height: 46vw;}
 }
