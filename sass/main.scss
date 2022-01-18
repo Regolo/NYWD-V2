@@ -1,0 +1,31 @@
+//GENERAL
+@import "base";
+@import "typography";
+@import "grid";
+@import "layout";
+
+//HEADER
+@import "announcement-bar";
+@import "header";
+@import "mobile-menu";
+@import "banner";
+
+//HOME
+@import "intro";
+@import "mosaic";
+@import "expertise";
+@import "video";
+
+
+//ABOUT 
+@import "about";
+@import "slide-team";
+
+//BECOME A PARTNER
+ @import "become";
+
+//CAREER
+@import "career";
+
+//FOOTER 
+@import "footer";
