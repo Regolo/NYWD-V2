@@ -4,7 +4,7 @@
   "description": "web site NYWD",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass assets/sass/main.scss assets/css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style2.css -w"
   },
   "repository": {
     "type": "git",
