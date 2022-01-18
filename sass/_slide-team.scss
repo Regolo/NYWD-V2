@@ -1,0 +1,98 @@
+.our-team{
+	.main-team{
+		margin-bottom: 40px;
+		.swiper {
+			width: 100%;
+			height: 100%;
+			padding-right: 9%;
+		  }
+		  .swiper-wrapper{
+			  padding-left: 5%;
+		  }
+		
+		  .swiper-slide {
+			text-align: center;
+			font-size: 18px;
+			background: #fff;
+		
+			/* Center slide text vertically */
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			-webkit-align-items: center;
+			align-items: center;
+		  }
+		
+		  .swiper-slide img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		  }
+		  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+			  left: 9%;
+			  right: auto;
+			  @media only screen and (max-width: $bp-small) {
+				 left: 15%;
+			  }
+		  }
+		  .swiper-button-next, .swiper-rtl .swiper-button-prev {
+			  right: 8%;
+			  left: auto;
+			  @media only screen and (max-width: $bp-small) {
+				  right: 14%;
+				}
+		  }
+		  .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+			  content: url('../img/arrow-left-slide-team.svg');
+		  }
+		  .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+			  content: url('../img/arrow-right-slide-team.svg');
+		  }
+		  .swiper-button-next, .swiper-button-prev{
+			  top: 8%;
+		  }
+		  
+		.item-team{
+			.img-team{
+				position: relative;
+				.role{
+					position: absolute;
+					bottom: 75px;
+					left: 30px;
+					color: #fff;
+					font-family: $font-primary;
+					font-weight: 400;
+					@media only screen and (max-width: $bp-medium) {
+						bottom: 65px;
+					}
+				}
+				.name{
+					position: absolute;
+					bottom: 0px;
+					left: 30px;
+					color: #fff;
+					font-family: $font-primary;
+					font-size: 3.6rem;
+				}
+			}
+			p{
+				text-align: left;
+				padding: 5%;
+				font-size: 1.6rem;
+				@media only screen and (max-width: $bp-medium) {
+					padding: 5% 5px;
+					font-size: 1.6rem;
+				}
+			}
+		}  
+		
+	}
+}
