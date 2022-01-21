@@ -27,11 +27,14 @@
 		width: 50%;
 		line-height: 1.3em;
 		left: 7vw;
-		top: 23vw;
+		top: 21vw;
+		@media only screen and (max-width:$bp-large){
+			top: 15vw;
+		}
 		@media only screen and (max-width: $bp-medium) {
 			font-size: 3rem;
 			left: 3vw;
-			top: 17vw;
+			top: 12vw;
 		}
 		@media only screen and (max-width: $bp-small) {
 			width: 80%;
@@ -127,12 +130,16 @@
 		position: relative;
 		color: #FFFFFF;
 		left: 7vw;
-		top: 25vw;
+		top: 23vw;
 		width: 45vw;
+		@media only screen and (max-width:$bp-large){
+			top: 17vw;
+			width: 50vw;
+		}
 		@media only screen and (max-width: $bp-medium) {
 			left: 3vw;
-			top: 19vw;
-			width: 50vw;
+			top: 13vw;
+			width: 60vw;
 		}
 		@media only screen and (max-width: $bp-small) {
 			width: 80vw;
