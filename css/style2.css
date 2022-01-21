@@ -734,7 +734,7 @@ p {
     .container {
       margin: 0 auto;
       width: 95%; } }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 48.75em) {
     .container {
       width: 90%; } }
 
@@ -769,7 +769,7 @@ p {
     font-size: 1.4rem; }
     .announcement-bar p a {
       color: #353C44; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 48.75em) {
       .announcement-bar p {
         text-align: center;
         width: 90%; } }
@@ -782,14 +782,14 @@ header {
   display: flex;
   align-items: center;
   padding: 0 5%; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 48.75em) {
     header {
       padding: 0 3%; } }
   header .container {
     display: flex;
     height: 100%;
     align-items: center; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 48.75em) {
       header .container {
         width: 96%; } }
   header .logo {
@@ -797,25 +797,25 @@ header {
     height: 100%;
     display: flex;
     align-items: center; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 48.75em) {
       header .logo {
         width: 40%; } }
     header .logo img {
       height: 30px;
       position: relative;
       top: 4px; }
-      @media only screen and (max-width: 37.5em) {
+      @media only screen and (max-width: 48.75em) {
         header .logo img {
           height: 25px; } }
   header .navigation {
-    width: 50%;
+    width: 57%;
     display: flex;
     align-items: center;
     height: 100%;
     justify-content: flex-end;
     text-transform: uppercase;
     font-size: 1.4rem; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 48.75em) {
       header .navigation {
         width: 60%; } }
     header .navigation a {
@@ -834,7 +834,7 @@ header {
     display: flex;
     list-style-type: none; }
     header .menu-desktop li {
-      margin: 0 20px; }
+      margin: 0 15px; }
       header .menu-desktop li a {
         text-transform: uppercase;
         font-size: 1.6rem;
@@ -851,7 +851,7 @@ header {
         display: none; } }
   header .language-switch {
     margin: 0 2rem; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 48.75em) {
       header .language-switch {
         margin: 0; } }
 
@@ -884,7 +884,7 @@ header {
     --listTextActive: #6C7486;
     --listBorder: #E4ECFA;
     --textFilled: #fff; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 48.75em) {
     .dropdown {
       width: 50px; } }
   .dropdown select {
@@ -908,7 +908,7 @@ header {
       right: 15px;
       background: #fff;
       transition: all .3s ease; }
-      @media only screen and (max-width: 37.5em) {
+      @media only screen and (max-width: 48.75em) {
         .dropdown > span:before, .dropdown > span:after {
           right: 20px; } }
     .dropdown > span:before {
@@ -1074,7 +1074,7 @@ svg.icon.icon--cross {
   right: 5vw;
   font-size: 0.75em;
   z-index: 100; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 48.75em) {
     .btn--close {
       top: 7vw;
       right: 9vw; } }
@@ -1088,7 +1088,7 @@ svg.icon.icon--cross {
   width: 320px;
   z-index: 0;
   transition: right 0.3s; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 48.75em) {
     .menu {
       right: -100%;
       height: 100%;
@@ -1151,7 +1151,7 @@ svg.icon.icon--cross {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 3.6rem; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 48.75em) {
     .menu .menu__link {
       font-size: 3.6rem; } }
 
@@ -1201,7 +1201,7 @@ svg.icon.icon--cross {
         .banner .main-banner h1.heading-1 {
           font-size: 6rem;
           line-height: 1.2em; } }
-      @media only screen and (max-width: 37.5em) {
+      @media only screen and (max-width: 48.75em) {
         .banner .main-banner h1.heading-1 {
           font-size: 5rem;
           line-height: 1.2em; } }
@@ -1211,13 +1211,13 @@ svg.icon.icon--cross {
       font-size: 2.5rem;
       margin-top: 35px;
       font-weight: 400; }
-      @media only screen and (max-width: 37.5em) {
+      @media only screen and (max-width: 48.75em) {
         .banner .main-banner h2.heading-2 {
           font-size: 2rem; } }
   @media only screen and (max-width: 68.75em) {
     .banner {
       height: 500px; } }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 48.75em) {
     .banner {
       height: 400px; } }
 
@@ -1248,7 +1248,7 @@ svg.icon.icon--cross {
     max-width: 65%;
     margin: 0 auto;
     font-size: 1.8rem; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 48.75em) {
       .intro p {
         max-width: 90%; } }
 
@@ -1266,10 +1266,10 @@ svg.icon.icon--cross {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("../img/mosaic-foto.jpg"); }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 48.75em) {
       .mosaic .bg-foto {
         height: 330px; } }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 48.75em) {
     .mosaic {
       height: auto; } }
   .mosaic h3 {
@@ -1280,13 +1280,16 @@ svg.icon.icon--cross {
     width: 50%;
     line-height: 1.3em;
     left: 7vw;
-    top: 23vw; }
+    top: 21vw; }
+    @media only screen and (max-width: 68.75em) {
+      .mosaic h3 {
+        top: 15vw; } }
     @media only screen and (max-width: 56.25em) {
       .mosaic h3 {
         font-size: 3rem;
         left: 3vw;
-        top: 17vw; } }
-    @media only screen and (max-width: 37.5em) {
+        top: 12vw; } }
+    @media only screen and (max-width: 48.75em) {
       .mosaic h3 {
         width: 80%;
         left: 5vw;
@@ -1299,7 +1302,7 @@ svg.icon.icon--cross {
     display: flex;
     justify-content: center;
     align-items: center; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 48.75em) {
       .mosaic .item-mosaic {
         position: relative;
         float: left;
@@ -1314,13 +1317,13 @@ svg.icon.icon--cross {
       font-style: normal;
       display: block;
       line-height: 1.1em; }
-      @media only screen and (max-width: 37.5em) {
+      @media only screen and (max-width: 48.75em) {
         .mosaic .item-mosaic em {
           font-size: 4em; } }
     .mosaic .item-mosaic.m1 {
       right: 20vw;
       top: 0; }
-      @media only screen and (max-width: 37.5em) {
+      @media only screen and (max-width: 48.75em) {
         .mosaic .item-mosaic.m1 {
           right: 0;
           top: 0;
@@ -1328,7 +1331,7 @@ svg.icon.icon--cross {
     .mosaic .item-mosaic.m2 {
       right: 0vw;
       top: 0; }
-      @media only screen and (max-width: 37.5em) {
+      @media only screen and (max-width: 48.75em) {
         .mosaic .item-mosaic.m2 {
           right: 0;
           top: 0;
@@ -1340,25 +1343,25 @@ svg.icon.icon--cross {
     .mosaic .item-mosaic.m3 {
       right: 0vw;
       top: 40vw; }
-      @media only screen and (max-width: 37.5em) {
+      @media only screen and (max-width: 48.75em) {
         .mosaic .item-mosaic.m3 {
           right: 0;
           top: 0;
           margin-top: 0px; } }
       .mosaic .item-mosaic.m3 em {
         color: #fff; }
-        @media only screen and (max-width: 37.5em) {
+        @media only screen and (max-width: 48.75em) {
           .mosaic .item-mosaic.m3 em {
             color: #353C44; } }
       .mosaic .item-mosaic.m3 span {
         color: #fff; }
-        @media only screen and (max-width: 37.5em) {
+        @media only screen and (max-width: 48.75em) {
           .mosaic .item-mosaic.m3 span {
             color: #353C44; } }
     .mosaic .item-mosaic.m4 {
       right: 0vw;
       top: 20vw; }
-      @media only screen and (max-width: 37.5em) {
+      @media only screen and (max-width: 48.75em) {
         .mosaic .item-mosaic.m4 {
           right: 0;
           top: 0;
@@ -1367,14 +1370,18 @@ svg.icon.icon--cross {
     position: relative;
     color: #FFFFFF;
     left: 7vw;
-    top: 25vw;
+    top: 23vw;
     width: 45vw; }
+    @media only screen and (max-width: 68.75em) {
+      .mosaic p {
+        top: 17vw;
+        width: 50vw; } }
     @media only screen and (max-width: 56.25em) {
       .mosaic p {
         left: 3vw;
-        top: 19vw;
-        width: 50vw; } }
-    @media only screen and (max-width: 37.5em) {
+        top: 13vw;
+        width: 60vw; } }
+    @media only screen and (max-width: 48.75em) {
       .mosaic p {
         width: 80vw;
         left: 5vw;
@@ -1637,7 +1644,7 @@ svg.icon.icon--cross {
   padding: 80px 0; }
   .social-responsibility .social-responsibility-text {
     padding: 3% 5%; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 48.75em) {
       .social-responsibility .social-responsibility-text {
         padding: 3% 5% 30px 5%; } }
     .social-responsibility .social-responsibility-text h3 {
@@ -1688,13 +1695,13 @@ svg.icon.icon--cross {
   .our-team .main-team .swiper-button-prev, .our-team .main-team .swiper-rtl .swiper-button-next {
     left: 9%;
     right: auto; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 48.75em) {
       .our-team .main-team .swiper-button-prev, .our-team .main-team .swiper-rtl .swiper-button-next {
         left: 15%; } }
   .our-team .main-team .swiper-button-next, .our-team .main-team .swiper-rtl .swiper-button-prev {
     right: 8%;
     left: auto; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 48.75em) {
       .our-team .main-team .swiper-button-next, .our-team .main-team .swiper-rtl .swiper-button-prev {
         right: 14%; } }
   .our-team .main-team .swiper-button-prev:after, .our-team .main-team .swiper-rtl .swiper-button-next:after {
@@ -1749,7 +1756,7 @@ svg.icon.icon--cross {
     margin: 0 auto 80px; }
   .our-process .item-process {
     padding: 10px; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 48.75em) {
       .our-process .item-process {
         padding: 20px 10px; } }
     .our-process .item-process h3 {
@@ -1764,7 +1771,7 @@ svg.icon.icon--cross {
   padding: 70px 0; }
   .accordion-form .accordion {
     margin: 0px auto 0; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 48.75em) {
       .accordion-form .accordion {
         width: 100%; } }
     .accordion-form .accordion .form-become input {
@@ -1788,7 +1795,7 @@ svg.icon.icon--cross {
         background-color: #353C44;
         color: #FFFFFF;
         font-size: 1.6rem; }
-        @media only screen and (max-width: 37.5em) {
+        @media only screen and (max-width: 48.75em) {
           .accordion-form .accordion .form-become input[type="submit"] {
             width: 97%;
             left: -2px; } }
@@ -1829,7 +1836,7 @@ svg.icon.icon--cross {
       @media only screen and (max-width: 56.25em) {
         .accordion-form .accordion .form-become textarea {
           height: 274px; } }
-      @media only screen and (max-width: 37.5em) {
+      @media only screen and (max-width: 48.75em) {
         .accordion-form .accordion .form-become textarea {
           width: 97%;
           height: 294px;
@@ -1851,7 +1858,7 @@ svg.icon.icon--cross {
     overflow: hidden;
     width: 85%;
     margin: 0 auto; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 48.75em) {
       .career .career-main .accordion-wrapper {
         width: 100%; } }
   .career .career-main .accordion {
@@ -1873,7 +1880,7 @@ svg.icon.icon--cross {
     font-family: "EB Garamond", serif;
     font-size: 3rem;
     color: #353C44; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 48.75em) {
       .career .career-main .accordion-label {
         padding: 25px 0px 25px 15px;
         font-size: 2.4rem; } }
@@ -1910,6 +1917,15 @@ svg.icon.icon--cross {
     max-height: 100vh;
     padding: 16px; }
 
+.privacy-main {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left; }
+  .privacy-main .heading-3 {
+    font-size: 3rem; }
+  .privacy-main ul {
+    padding: 20px 20px 20px 40px; }
+
 .footer {
   text-align: center;
   padding: 60px 0; }
@@ -1930,10 +1946,10 @@ svg.icon.icon--cross {
         transition: opacity 0.3s; }
         .footer ul.menu-footer li a:hover {
           opacity: 0.6; }
-      @media only screen and (max-width: 37.5em) {
+      @media only screen and (max-width: 48.75em) {
         .footer ul.menu-footer li {
           margin: 0 8px; } }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 48.75em) {
       .footer ul.menu-footer {
         width: 95%; } }
   .footer .social-link {
@@ -1964,7 +1980,7 @@ svg.icon.icon--cross {
     position: relative;
     max-width: 400px;
     margin: 0 auto 40px; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 48.75em) {
       .footer .change-language {
         margin: 0 auto 38px; } }
     .footer .change-language a {
@@ -1995,7 +2011,7 @@ svg.icon.icon--cross {
         .footer .change-language .choose-language {
           right: -20px;
           top: 10px; } }
-      @media only screen and (max-width: 37.5em) {
+      @media only screen and (max-width: 48.75em) {
         .footer .change-language .choose-language {
           right: 19px;
           top: 40px; } }
@@ -2014,7 +2030,7 @@ svg.icon.icon--cross {
           .footer .change-language .choose-language.open-language {
             right: 22px;
             top: 10px; } }
-        @media only screen and (max-width: 37.5em) {
+        @media only screen and (max-width: 48.75em) {
           .footer .change-language .choose-language.open-language {
             right: 139px;
             opacity: 1;
