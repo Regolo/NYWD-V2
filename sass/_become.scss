@@ -37,9 +37,12 @@
 }
 .accordion-form{
 	position: relative;
-	padding: 70px 0;
+	padding: 100px 0 0 0;
 	.accordion{
 		margin: 0px auto 0;
+		.accordion-item__container{
+			padding-bottom: 110px;
+		}
 		@media only screen and (max-width: $bp-small) {
 			width: 100%;
 		}
@@ -83,8 +86,11 @@
 				padding: 0 10px;
 				color: #3F4656;
 				ul{
-					top: 40px;
+					top: 35px;
 				}
+			}
+			.dropdown.open ul{
+				background-color: #fff;
 			}
 			.dropdown.open ul li {
 				height: 35px;
