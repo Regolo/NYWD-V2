@@ -1789,6 +1789,9 @@ svg.icon.icon--cross {
       .accordion-form .accordion .form-become input:active {
         border: none;
         outline: none; }
+      @media only screen and (max-width: 48.75em) {
+        .accordion-form .accordion .form-become input {
+          width: 96%; } }
       .accordion-form .accordion .form-become input[type="submit"] {
         width: 99%;
         margin: 2% auto;
@@ -1813,6 +1816,9 @@ svg.icon.icon--cross {
       color: #3F4656; }
       .accordion-form .accordion .form-become .dropdown ul {
         top: 35px; }
+      @media only screen and (max-width: 48.75em) {
+        .accordion-form .accordion .form-become .dropdown {
+          width: 96%; } }
     .accordion-form .accordion .form-become .dropdown.open ul {
       background-color: #fff; }
     .accordion-form .accordion .form-become .dropdown.open ul li {
