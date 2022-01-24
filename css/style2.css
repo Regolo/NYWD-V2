@@ -1768,9 +1768,11 @@ svg.icon.icon--cross {
 
 .accordion-form {
   position: relative;
-  padding: 70px 0; }
+  padding: 100px 0 0 0; }
   .accordion-form .accordion {
     margin: 0px auto 0; }
+    .accordion-form .accordion .accordion-item__container {
+      padding-bottom: 110px; }
     @media only screen and (max-width: 48.75em) {
       .accordion-form .accordion {
         width: 100%; } }
@@ -1810,7 +1812,9 @@ svg.icon.icon--cross {
       padding: 0 10px;
       color: #3F4656; }
       .accordion-form .accordion .form-become .dropdown ul {
-        top: 40px; }
+        top: 35px; }
+    .accordion-form .accordion .form-become .dropdown.open ul {
+      background-color: #fff; }
     .accordion-form .accordion .form-become .dropdown.open ul li {
       height: 35px;
       line-height: 35px; }
