@@ -1794,23 +1794,35 @@ svg.icon.icon--cross {
         position: relative;
         background-color: #353C44;
         color: #FFFFFF;
-        font-size: 1.6rem; }
+        font-size: 1.6rem;
+        margin-bottom: 30px; }
         @media only screen and (max-width: 48.75em) {
           .accordion-form .accordion .form-become input[type="submit"] {
             width: 97%;
             left: -2px; } }
-    .accordion-form .accordion .form-become select {
-      display: inline-block;
+    .accordion-form .accordion .form-become .dropdown {
       width: 47%;
+      float: left;
+      background-color: #fff;
+      margin: 1% 1.2%;
       height: 50px;
       line-height: 50px;
-      border: none;
       padding: 0 10px;
-      margin: 1%;
-      font-family: "Roboto", sans-serif;
-      color: #353C44; }
-      .accordion-form .accordion .form-become select.years-join {
-        width: 97%; }
+      color: #3F4656; }
+      .accordion-form .accordion .form-become .dropdown ul {
+        top: 40px; }
+    .accordion-form .accordion .form-become .dropdown.open ul li {
+      height: 35px;
+      line-height: 35px; }
+      .accordion-form .accordion .form-become .dropdown.open ul li a {
+        padding: 0px 10px;
+        font-size: 14px; }
+    .accordion-form .accordion .form-become .dropdown.filled > span {
+      color: #6b6d72;
+      font-size: 14px; }
+    .accordion-form .accordion .form-become .dropdown > span:before, .accordion-form .accordion .form-become .dropdown > span:after {
+      right: 15px;
+      background: #424242; }
     .accordion-form .accordion .form-become textarea {
       display: inline-block;
       width: 100%;
