@@ -66,25 +66,41 @@
 					background-color: $color-primary;
 					color: $color-primary-light;
 					font-size: 1.6rem;
+					margin-bottom: 30px;
 					@media only screen and (max-width: $bp-small) {
 						width: 97%;
 						left: -2px;
 					}
 				}
 			}
-			select{
-				display: inline-block;
+			.dropdown{
 				width: 47%;
+				float: left;
+				background-color: #fff;
+				margin: 1% 1.2%;
 				height: 50px;
 				line-height: 50px;
-				border: none;
 				padding: 0 10px;
-				margin: 1%;
-				font-family: $font-primary;
-				color: $color-primary;
-				&.years-join{
-					width: 97%;
+				color: #3F4656;
+				ul{
+					top: 40px;
 				}
+			}
+			.dropdown.open ul li {
+				height: 35px;
+				line-height: 35px;
+				a{
+					padding: 0px 10px;
+					font-size: 14px;
+				}
+			}
+			.dropdown.filled > span {
+				color: #6b6d72;
+				font-size: 14px;
+			}
+			.dropdown > span:before, .dropdown > span:after {
+				right: 15px;
+				background: #424242;
 			}
 			textarea{
 				display: inline-block;
