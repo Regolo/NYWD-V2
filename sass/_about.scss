@@ -12,11 +12,27 @@
 	}
 	figure.figure-bridge {
 		position: relative;
+		background-image: url('../img/bridge-about.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 400px;
+		@media only screen and (max-width: $bp-small) {
+			height: 330px;
+			margin-bottom: 30px;
+			background-position: center right;
+		}
 		figcaption {
 			position: absolute;
 			bottom: 25px;
 			left: 20px;
 			color: #fff;
+			@media only screen and (max-width: $bp-small) {
+				left: 0;
+				position: absolute;
+				color: $color-primary;
+				bottom: -55px;
+			}
 		}
 	}
 }
