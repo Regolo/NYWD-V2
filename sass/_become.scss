@@ -40,8 +40,16 @@
 	padding: 100px 0 0 0;
 	.accordion{
 		margin: 0px auto 0;
+		.accordion-content{
+			@media only screen and (max-width: $bp-small) {
+				margin-bottom: 25px;
+			}
+		}
 		.accordion-item__container{
 			padding-bottom: 110px;
+			@media only screen and (max-width: $bp-small) {
+				padding-bottom: 5px;
+			}
 		}
 		@media only screen and (max-width: $bp-small) {
 			width: 100%;
