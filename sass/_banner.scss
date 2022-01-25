@@ -46,13 +46,25 @@
 }
 .banner-home{
 	background-image: url('../img/banner-home-desktop.jpg');
+	@media only screen and (max-width: $bp-small) {
+		background-position: 90% 50%;
+	}
 }
 .banner-about{
 	background-image: url('../img/banner-about.jpg');
+	@media only screen and (max-width: $bp-small) {
+		background-position: 25% 50%;
+	}
 }
 .banner-become{
 	background-image: url('../img/banner-become.jpg');
+	@media only screen and (max-width: $bp-small) {
+		background-position: 16% 50%;
+	}
 }
 .banner-career{
 	background-image: url('../img/career-banner.jpg');
+	@media only screen and (max-width: $bp-small) {
+		background-position: 71% 50%;
+	}
 }
