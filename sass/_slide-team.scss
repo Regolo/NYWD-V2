@@ -40,7 +40,7 @@
 			  left: 9%;
 			  right: auto;
 			  @media only screen and (max-width: $bp-small) {
-				 left: 15%;
+				 left: 12%;
 			  }
 		  }
 		  .swiper-button-next, .swiper-rtl .swiper-button-prev {
@@ -52,12 +52,21 @@
 		  }
 		  .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
 			  content: url('../img/arrow-left-slide-team.svg');
+			  @media only screen and (max-width: $bp-small) {
+					content: url('../img/arrow-left-slide-team-mob.svg');
+				  }
 		  }
 		  .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
 			  content: url('../img/arrow-right-slide-team.svg');
+			  @media only screen and (max-width: $bp-small) {
+					content: url('../img/arrow-right-slide-team-mob.svg');
+				  }
 		  }
 		  .swiper-button-next, .swiper-button-prev{
 			  top: 8%;
+			  @media only screen and (max-width: $bp-small) {
+				  top: 30%;
+				}
 		  }
 		  
 		.item-team{
