@@ -772,7 +772,8 @@ p {
     @media only screen and (max-width: 48.75em) {
       .announcement-bar p {
         text-align: center;
-        width: 90%; } }
+        width: 70%;
+        font-size: 1.5rem; } }
 
 header {
   background-color: #353C44;
