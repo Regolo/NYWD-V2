@@ -7,6 +7,28 @@
 *::after {
   box-sizing: inherit; }
 
+a, div, input {
+  outline: 0; }
+
+input:focus, textarea:focus, select:focus, a:focus {
+  outline: none; }
+
+textarea:focus, input:focus {
+  outline: none; }
+
+a, a:visited, div, div::visited {
+  outline: none; }
+
+*:focus:not(.focus-visible) {
+  outline: none; }
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
@@ -1064,7 +1086,8 @@ svg.icon.icon--cross {
   pointer-events: visible;
   display: block;
   margin-left: 25px;
-  opacity: 1; }
+  opacity: 1;
+  padding: 10px; }
   @media only screen and (min-width: 68.75em) {
     .btn--menu {
       display: none; } }
@@ -1193,7 +1216,11 @@ svg.icon.icon--cross {
   justify-content: center;
   flex-wrap: wrap; }
   .banner .main-banner {
-    text-align: center; }
+    text-align: center;
+    text-shadow: 1px 1px 3px #484848; }
+    @media only screen and (max-width: 48.75em) {
+      .banner .main-banner {
+        max-width: 90%; } }
     .banner .main-banner h1.heading-1 {
       color: #FFFFFF;
       font-size: 7.5rem;
@@ -1251,6 +1278,9 @@ svg.icon.icon--cross {
   justify-content: center;
   text-align: center;
   padding: 80px 0; }
+  @media only screen and (max-width: 48.75em) {
+    .intro {
+      padding: 40px 0; } }
   .intro h3 {
     font-size: 3.8rem;
     margin-bottom: 20px; }
@@ -1306,7 +1336,7 @@ svg.icon.icon--cross {
       .mosaic h3 {
         width: 80%;
         left: 5vw;
-        top: 15vw;
+        top: 33vw;
         height: 300px; } }
   .mosaic .item-mosaic {
     position: absolute;
@@ -1629,6 +1659,9 @@ svg.icon.icon--cross {
 
 .our-company {
   padding: 60px 0 40px; }
+  @media only screen and (max-width: 48.75em) {
+    .our-company {
+      padding: 30px 0 40px; } }
   .our-company .our-company-text {
     padding: 5%; }
     @media only screen and (max-width: 56.25em) {
@@ -1693,6 +1726,9 @@ svg.icon.icon--cross {
 
 .our-team .main-team {
   margin-bottom: 40px; }
+  @media only screen and (max-width: 48.75em) {
+    .our-team .main-team {
+      margin-bottom: 20px; } }
   .our-team .main-team .swiper {
     width: 100%;
     height: 100%;
