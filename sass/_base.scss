@@ -33,6 +33,27 @@ $bp-smallest: 31.25em; // 500px
 *::after {
     box-sizing: inherit;
 }
+a,div,input {
+   outline: 0;
+}
+input:focus, textarea:focus, select:focus,a:focus{
+  outline: none;
+}
+textarea:focus, input:focus{
+  outline: none;
+}
+a, a:visited,div,div::visited { outline: none; }
+
+*:focus:not(.focus-visible) {  outline: none;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
 
 html {
     box-sizing: border-box;
